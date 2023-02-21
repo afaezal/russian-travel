@@ -1,0 +1,61 @@
+@import url(../../vendor/normalize.css);
+.page {
+    background-color: #2A2C2F;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'Inter Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Inter Regular"),
+        url("../../fonts/Inter-3.19/Inter\ Web/Inter-Regular.woff2") format("woff2"),
+        url("../../fonts/Inter-3.19/Inter\ Web/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Black';
+    font-style: normal;
+    font-weight: 900;
+    src: local("Inter Black"),
+        url("../../fonts/Inter-3.19/Inter\ Web/Inter-Black.woff2") format("woff2"),
+        url("../../fonts/Inter-3.19/Inter\ Web/Inter-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local("Inter Bold"),
+        url("../../fonts/Inter-3.19/Inter\ Web/Inter-Bold.woff2") format("woff2"),
+        url("../../fonts/Inter-3.19/Inter\ Web/Inter-Bold.woff") format("woff");
+}
+
+@media screen and (min-width: 1280px) {
+    .page { 
+        width: 1280px;
+     }
+}
+
+.header {
+    width: 1184px;
+    height: 52px;
+    margin-left: 48px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: aqua;
+}
+
+.header__lang-link {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: inter;
+
+}
+
+.header__lang-link:first-of-type {
+    margin-right: 18px;
+    text-decoration: underline;
+}
