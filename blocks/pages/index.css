@@ -26,9 +26,11 @@
     background-color: #2A2C2F;
     max-width: 1280px;
     outline: 1px red solid;
+    height: 2000px;
+
     
 }
-
+/* HEADER */
 .header {
     max-width: calc(100% - 96px);
     height: 52px;
@@ -63,12 +65,143 @@
     width: 29px;
     height: 28px;
 }
+/* HEADER */
+
+/* LEAD */
+.lead {
+    margin: 0 auto;
+
+    max-height: 1005px;
+    max-width: calc(100% - 148*2px);
+    margin-top: 56px;
+}
+
+.lead__title {
+    font-family: 'Inter-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 720px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.lead__subtitle {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 640px;
+    height: 72px;
+    margin: 32px auto 64px auto;
+    
+}
+
+.lead__image {
+    max-width: 100%;
+    max-height: 615px;
+}
+
+.lead__caption {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /LEAD */
 @media screen and (max-width: 1024px) {
     .page {
         max-width: 1024px;
     }
     .header {
         max-width: calc(100% - 96px)
+    }
+    .lead {
+        margin: 0 auto;
+    
+        max-height: 962px;
+        max-width: 928px;
+        margin-top: 48x;
+    }
+    
+    .lead__title {
+        font-family: 'Inter-Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 720px;
+        height: 200px;
+        margin: 0 auto;
+    
+    }
+    
+    .lead__subtitle {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 640px;
+        height: 72px;
+        margin: 32px auto 64px auto;
+        
+    }
+    
+    .lead__image {
+        width: 984px;
+        height: 615px;
+    }
+    
+    .lead__caption {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 8px;
     }
 }
 
