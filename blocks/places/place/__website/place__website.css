@@ -1,0 +1,12 @@
+.place__website {
+
+	width: 456px;
+	height: 46px;
+	grid-area: website;
+	margin-bottom: 48px;
+	align-self: flex-end;
+	justify-self: flex-end;
+	margin-right: 28px;
+
+
+}
