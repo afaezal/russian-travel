@@ -161,7 +161,7 @@
 	}
 
 	.header {
-		max-width: calc(100% - 48px)
+		max-width: calc(100% - 48px);
 	}
 
 	.lead {
