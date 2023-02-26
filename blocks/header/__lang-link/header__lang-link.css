@@ -15,5 +15,5 @@
 
 .header__lang-link:last-of-type {
 	width: 29px;
-	height: 28px;
+	max-height: 28px;
 }

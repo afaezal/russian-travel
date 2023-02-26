@@ -7,6 +7,6 @@
 	text-align: center;
 	color: #FFFFFF;
 	width: 640px;
-	height: 72px;
+	max-height: 72px;
 	margin: 32px auto 64px auto;
 }

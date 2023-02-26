@@ -2,6 +2,6 @@
 	grid-area: text;
 	width: 484px;
 	justify-self: flex-end;
-	height: 460px;
+	max-height: 460px;
 
 }
